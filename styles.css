@@ -1,0 +1,44 @@
+*,
+* :before,
+* :after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.banner {
+  background: rgb(27, 27, 27);
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 2fr;
+  text-align: right;
+}
+.header a {
+  color: rgb(255, 255, 255);
+  padding: 2em;
+  font-size: 2em;
+}
+.header img {
+  height: 4em;
+  width: auto;
+  margin: 1em;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax 500px, 1fr);
+}
+ul {
+  list-style-type: none;
+}
+.top {
+  display: grid;
+  grid-auto-flow: column;
+  place-items: center;
+}
