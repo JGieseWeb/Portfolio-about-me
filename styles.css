@@ -42,3 +42,25 @@ ul {
   grid-auto-flow: column;
   place-items: center;
 }
+h1 {
+  text-align: center;
+  font-size: 3em;
+  font-family: cursive;
+}
+h2 {
+  font-size: 2em;
+}
+.About-me-1 {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto 1fr;
+  text-align: left;
+}
+.About-me-1 img {
+  height: 15em;
+  width: auto;
+  margin: 1em;
+}
+.headline-about {
+  margin-left: 1em;
+}
