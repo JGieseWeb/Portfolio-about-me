@@ -109,7 +109,6 @@ h2 {
   margin-left: -15px;
   flex-wrap: wrap;
   text-align: center;
-  
 }
 .int-first {
   position: relative;
@@ -120,13 +119,15 @@ h2 {
   height: 10em;
   width: auto;
 }
-.bot{display: grid;
+.bot {
+  display: grid;
   grid-auto-flow: column;
   place-items: center;
   background: rgb(27, 27, 27);
   grid-template-columns: 1fr 1fr 1fr;
-  padding : 2em;
+  padding: 2em;
   font-size: 2em;
-
 }
-.bot a{color: rgb(255, 255, 255);}}
+.bot a {
+  color: rgb(255, 255, 255);
+}
