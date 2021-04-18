@@ -52,15 +52,81 @@ h2 {
 }
 .About-me-1 {
   display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: auto 1fr;
-  text-align: left;
 }
 .About-me-1 img {
   height: 15em;
   width: auto;
   margin: 1em;
 }
-.headline-about {
-  margin-left: 1em;
+.about-me-article {
+  background: rgb(222, 225, 230);
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto 1fr 3fr;
+  margin: 2em;
+  padding: 1em;
+  border-radius: 1em;
 }
+.about-me-article2 {
+  background: red;
+  display: grid;
+  grid-auto-flow: column;
+  margin: 2em;
+  padding: 1em;
+  border-radius: 1em;
+}
+.about-me-article3 {
+  background: rgb(231, 234, 237);
+  display: grid;
+  grid-auto-flow: column;
+  margin: 2em;
+  padding: 1em;
+  border-radius: 1em;
+}
+.headline-about {
+  margin-left: 4em;
+}
+.headline-about2 {
+  margin-left: 2em;
+  padding-left: 22em;
+  padding-top: 22em;
+}
+.headline-about3 {
+  margin-left: 2em;
+  padding-left: 22em;
+  padding-top: 33em;
+}
+.textfiller * {
+  margin: 0;
+}
+.all-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.flex {
+  display: flex;
+  margin-right: -15px;
+  margin-left: -15px;
+  flex-wrap: wrap;
+  text-align: center;
+  
+}
+.int-first {
+  position: relative;
+}
+
+.flex img {
+  padding: 1em;
+  height: 10em;
+  width: auto;
+}
+.bot{display: grid;
+  grid-auto-flow: column;
+  place-items: center;
+  background: rgb(27, 27, 27);
+  grid-template-columns: 1fr 1fr 1fr;
+  padding : 2em;
+  font-size: 2em;
+
+}
+.bot a{color: rgb(255, 255, 255);}}
