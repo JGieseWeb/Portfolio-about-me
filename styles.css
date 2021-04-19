@@ -50,10 +50,14 @@ h1 {
 h2 {
   font-size: 2em;
 }
-.About-me-1 {
-  display: grid;
+.all-section > * {
+  width: 50%;
 }
-.About-me-1 img {
+.all-section > :nth-child(even) {
+  margin-left: auto;
+}
+
+.about-me-article img {
   height: 15em;
   width: auto;
   margin: 1em;
@@ -66,52 +70,47 @@ h2 {
   margin: 2em;
   padding: 1em;
   border-radius: 1em;
+  border-right: 0.5em solid rgb(233, 235, 236);
 }
 .about-me-article2 {
   background: red;
-  display: grid;
-  grid-auto-flow: column;
-  margin: 2em;
+  width: 60%;
   padding: 1em;
   border-radius: 1em;
+  margin-right: 0;
+  margin-left: 40%;
+  border-left: 0.5em solid rgb(153, 22, 22);
 }
 .about-me-article3 {
   background: rgb(231, 234, 237);
   display: grid;
   grid-auto-flow: column;
-  margin: 2em;
+  width: 60%;
   padding: 1em;
   border-radius: 1em;
+  justify-content: start;
+  border-right: 0.5em solid rgb(178, 183, 185);
 }
 .headline-about {
   margin-left: 4em;
 }
 .headline-about2 {
-  margin-left: 2em;
-  padding-left: 22em;
-  padding-top: 22em;
+  text-align: center;
 }
 .headline-about3 {
-  margin-left: 2em;
-  padding-left: 22em;
-  padding-top: 33em;
+  text-align: center;
 }
 .textfiller * {
   margin: 0;
 }
-.all-section {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
+
 .flex {
   display: flex;
   margin-right: -15px;
   margin-left: -15px;
   flex-wrap: wrap;
   text-align: center;
-}
-.int-first {
-  position: relative;
+  justify-content: flex-end;
 }
 
 .flex img {
